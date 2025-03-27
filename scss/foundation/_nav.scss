@@ -1,0 +1,41 @@
+.nav{
+        &__top{
+                background-color: $button;
+                padding: 12px 0;
+                .container{
+                        display: flex;
+                        justify-content: flex-end;
+                        align-items: center;
+                        gap: 231px;
+                }
+                .info{
+                        display: flex;
+                        align-items: center;
+                        gap: 8px;
+                        p{
+                                @include font(14,400,21,#FAFAFA)
+                        }
+                        a{
+                                @include font(14,600,24,#FAFAFA) 
+                        }
+                }
+        }
+        &__lang{
+                select{
+                        background: transparent;
+                        @include font(14,400,21,#FAFAFA)
+                }
+                option{
+                        background-color: $button;
+                        color: $primary;
+                }
+        }
+        &__menu{
+                padding: 40px 0 16px 0;
+                .container{
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                }
+        }
+}
