@@ -1,0 +1,31 @@
+$primary: #ffffff;
+$primary1:#363738;
+$secondary:#F5F5F5;
+$secondary1:#FEFAF1;
+$bg:#ffffff;
+$text:#FAFAFA;
+$Text1:#7D8184;
+$text2:#000000;
+$button:#000000;
+$secondary2:#DB4444;
+$button1:#00FF66;
+$button2:#DB4444;
+$HoverButton:#E07575;
+$HoverButton2:#A0BCE0;
+$border: rgba(0,0,0,0.3);
+
+
+
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+body{
+        font-family: 'Roboto' sans-serif;
+}
+.container{
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 10px;
+}
